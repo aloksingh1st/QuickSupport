@@ -6,7 +6,7 @@ import {
   getById,
   getByUserId,
   updatePost,
-} from "../controllers/Post-controller";
+} from "../controllers/Post-controller.js";
 
 const postRouter = express.Router();
 postRouter.get("/", getAllPost);
