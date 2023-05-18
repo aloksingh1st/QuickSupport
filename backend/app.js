@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
-import postRouter from "./routes/postRoutes";
-import router from "./routes/userRoutes";
+import postRouter from "./routes/postRoutes.js";
+import router from "./routes/userRoutes.js";
 import cors from "cors";
 
 
