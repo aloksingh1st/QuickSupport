@@ -1,0 +1,35 @@
+Button:hover{
+    background-color: rgb(6, 203, 111) !important;
+    /* color:white; */
+    box-shadow: 2px 2px 10px black;
+}
+
+
+
+.button{
+    background-color: rgb(6, 139, 77) !important;
+    /* color:white; */
+    box-shadow: 2px 2px 10px black;
+}
+
+img{
+    height:217px;
+}
+
+.overflo{
+    /* overflow-x:hidden !important; */
+    /* margin-left: 2rem !important; */
+    margin-right: 0  !important;
+}
+
+
+
+input{
+    outline: none !important;
+    border: none !important;
+}
+
+a:hover {
+    
+    border-bottom: 1 px solid rgba(6, 203, 111, 1) !important; 
+}
