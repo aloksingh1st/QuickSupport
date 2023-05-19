@@ -34,6 +34,7 @@ const Post = ({ title, description, imageURL, userName, isUser, id, time }) => {
       <Card
         sx={{
           width: "30%",
+          // minWidth:"60%"
           margin: "auto",
           mt: 2,
           padding: 2,
@@ -42,6 +43,8 @@ const Post = ({ title, description, imageURL, userName, isUser, id, time }) => {
             boxShadow: "15px 15px  10px #ccc",
           },
         }}
+
+        className="sm:w-100%"
       >
         {isUser && (
           <Box display={"flex"}>

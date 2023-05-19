@@ -100,12 +100,12 @@ const sector = [
 
     <hr className="my-12"/>
 
-    <div className="mx-36 my-16">
+    <div className="md:mx-36 my-16 sm:mx-0">
 
 
-    <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }} className="my-4">
+    <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }} className="md:my-4 sm:d-block xs:d-block">
   {sector.map((sec, index) => (
-    <Grid item xs={2} sm={4} md={4} key={index}>
+    <Grid item xs={12} sm={4} md={4} key={index}>
         <Cards 
           className="m-4 overflo"
           toLink={sec.toLink}

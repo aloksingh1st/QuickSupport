@@ -11,7 +11,7 @@ export default function Cards(props) {
   <a href = {props.toLink} target="_blank">
 
 
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 450 }}>
       <CardActionArea>
         <CardMedia
           component="img"

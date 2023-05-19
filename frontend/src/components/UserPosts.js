@@ -1,9 +1,9 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Post from "./Post";
 
 import {API_BASE_URL} from "../config.js"
+import Post from "./Post";
 
 const UserPosts = () => {
   const [user, setUser] = useState();

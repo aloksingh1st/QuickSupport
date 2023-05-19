@@ -16,6 +16,12 @@ img{
     height:217px;
 }
 
+
+/* .MuiTabs-flexContainer{
+
+    flex-direction: column;
+} */
+
 .overflo{
     /* overflow-x:hidden !important; */
     /* margin-left: 2rem !important; */
@@ -32,4 +38,15 @@ input{
 a:hover {
     
     border-bottom: 1 px solid rgba(6, 203, 111, 1) !important; 
+}
+
+
+@media screen and (max-width:760px){
+    .MuiTabs-flexContainer{
+
+        flex-direction: column;
+    }
+    .MuiPaper-root{
+        width:80% !important;
+    }
 }
